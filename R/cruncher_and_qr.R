@@ -28,3 +28,5 @@ rjwsacruncher::cruncher_and_param(
 QR_auto <- JDCruncheR::extract_QR("./jdemetra/ws_IPI_v2/Output/SAProcessing-1/demetra_m.csv")
 QR_auto_score <- JDCruncheR::compute_score(QR_auto)
 scores <- JDCruncheR::extract_score(QR_auto_score)
+
+JDCruncheR::export_xlsx(QR_auto_score, file_name = "QR.xlsx")
