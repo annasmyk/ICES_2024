@@ -13,4 +13,4 @@ demonstration.
 
 Overview of the poster:
 
-[<img src="https://github.com/annasmyk/ICES_2024/blob/main/figures/poster.png?raw=true">](https://github.com/annasmyk/ICES_2024/blob/main/figures/poster.pdf)
+[<img src="https://github.com/annasmyk/ICES_2024/blob/main/figures/poster.png?raw=true">](https://github.com/annasmyk/ICES_2024/blob/main/figures/poster.pdf?raw=true)
