@@ -27,27 +27,21 @@ To use the presented packages, you have to install them.
 Version **3** R packages can be installed like this:
 
 ``` r
-# If the package {remotes} is not installed
-# install.packages("remotes")
+install.packages("rjd3nowcasting", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
 
-remotes::install_github("rjdverse/rjd3toolkit")
-
-remotes::install_github("rjdverse/rjd3sts")
-
-remotes::install_github("rjdverse/rjd3x13")
-remotes::install_github("rjdverse/rjd3tramoseats")
-
-remotes::install_github("rjdverse/rjd3filters")
-remotes::install_github("rjdverse/rjd3x11plus")
-remotes::install_github("rjdverse/rjd3highfreq")
-remotes::install_github("rjdverse/rjd3stl")
-
-remotes::install_github("rjdverse/rjd3revisions")
-remotes::install_github("rjdverse/rjd3bench")
-remotes::install_github("rjdverse/rjd3nowcasting")
-
-remotes::install_github("rjdverse/rjd3providers")
-remotes::install_github("rjdverse/rjd3workspace")
+install.packages("rjd3toolkit", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3sts", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3x13", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3tramoseats", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3filters", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3x11plus", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3highfreq", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3stl", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3revisions", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3bench", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3nowcasting", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3providers", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
+install.packages("rjd3workspace", repos = c("https://rjdverse.r-universe.dev", "https://cloud.r-project.org"))
 
 install.packages("rjdworkspace")
 install.packages("rjwsacruncher")
